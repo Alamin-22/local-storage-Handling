@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <input id="product-Field" style="width: 250px; height: 35px; padding:2px; font-size: 20px;" type="text" placeholder="Product Name">
+        <input id="Quantity-Field" style="width: 250px; height: 35px; padding:2px; font-size: 20px" type="number" placeholder="Product Quantity">
+        <button onclick="addToCart()" style="padding-top: 10px; padding-bottom: 10px; font-size: 18px; cursor: pointer;">Add To cart</button>
+    </header>
+    <main>
+        <ol id="ol-container" style="font-size: 20px"></ol>
+    </main>
+    <script src="./cart.js"></script>
+</body>
+</html>
