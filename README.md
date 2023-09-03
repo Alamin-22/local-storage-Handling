@@ -1,0 +1,21 @@
+# local-storage-Handling
+
+
+je kono website local vabe kiccu data save kore rakhe fole poroborti e ager data gulo load korte pare
+*** local storage e sudhu string accept kore an return kore
+*** array ba object ke amara local storage e direct use korte parbo na, different way use korte hobe
+
+*** ESC btn use kore 2 ta inspect tab ana jay
+1. local storage e kicchu save korte hoile localStorage.setItem('a','alamin') evaeb 	2 ta parameter dite hobe
+
+2. (window.localStorage use kora jaite pare)localStorage.getItem('name') >> us kore set kora value paua jay
+
+
+3. jodi remove korte chai tahole .removeItem('name') 
+
+4.	.clear  use kore sob delete kore dey
+5. 	.length diye koita adata ache ta be rkora jay as like array
+
+*6.  JSON.stringify(object variable name) >>> evabe object ke string e convert kore use korte hobe
+
+7. JSON.parse(stringify object) >> e vabe abr main object a convert kore but ager jokhn stringify kora hobe setake ekta variable e rakhte hobe
